@@ -84,6 +84,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Alexpop2/PodTestNotes.git", :tag => "#{s.version}" }
 
   s.framework = "Foundation"
+  s.framework = "SwiftGRPC"
   #s.dependency 'SwiftGRPC'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
