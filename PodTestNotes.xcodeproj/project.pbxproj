@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FE201283E33E7ADC3288050 /* Pods_PodTestNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CF764C698E0E031EEF31EF /* Pods_PodTestNotes.framework */; };
 		60E4B92A222D8F9600BED334 /* PodTestNotes.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E4B928222D8F9600BED334 /* PodTestNotes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60E4B932222D91DF00BED334 /* notes.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4B930222D91DE00BED334 /* notes.pb.swift */; };
 		60E4B933222D91DF00BED334 /* notes.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4B931222D91DF00BED334 /* notes.grpc.swift */; };
 		60E4B935222D91EC00BED334 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4B934222D91EC00BED334 /* DataRepository.swift */; };
+		D0A505D5ED4275C390DE681D /* libPods-PodTestNotes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5685406E37E83677BF658306 /* libPods-PodTestNotes.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CEB1479454B1441BC0B109F /* Pods-PodTestNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTestNotes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodTestNotes/Pods-PodTestNotes.debug.xcconfig"; sourceTree = "<group>"; };
 		2EA2BE1C0D39243296A1D07F /* Pods-PodTestNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTestNotes.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodTestNotes/Pods-PodTestNotes.release.xcconfig"; sourceTree = "<group>"; };
+		5685406E37E83677BF658306 /* libPods-PodTestNotes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodTestNotes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E4B925222D8F9600BED334 /* PodTestNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodTestNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E4B928222D8F9600BED334 /* PodTestNotes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodTestNotes.h; sourceTree = "<group>"; };
 		60E4B929222D8F9600BED334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60E4B930222D91DE00BED334 /* notes.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notes.pb.swift; sourceTree = "<group>"; };
 		60E4B931222D91DF00BED334 /* notes.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notes.grpc.swift; sourceTree = "<group>"; };
 		60E4B934222D91EC00BED334 /* DataRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
-		88CF764C698E0E031EEF31EF /* Pods_PodTestNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodTestNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FE201283E33E7ADC3288050 /* Pods_PodTestNotes.framework in Frameworks */,
+				D0A505D5ED4275C390DE681D /* libPods-PodTestNotes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +41,7 @@
 		48BEA810AD035D3953478849 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				88CF764C698E0E031EEF31EF /* Pods_PodTestNotes.framework */,
+				5685406E37E83677BF658306 /* libPods-PodTestNotes.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

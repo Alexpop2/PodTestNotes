@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PodTestNotes"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "Testing Notes GRPC"
   s.platform = :ios
   s.ios.deployment_target = '12.0'
@@ -86,6 +86,8 @@ Pod::Spec.new do |s|
   s.framework = "Foundation"
   #s.framework = "SwiftGRPC"
   s.dependency 'SwiftGRPC'
+  s.dependency 'gRPC-Core'
+  s.dependency 'BoringSSL'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

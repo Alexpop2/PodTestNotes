@@ -2,6 +2,7 @@
 # platform :ios, '9.0'
 
 target 'PodTestNotes' do
-	use_frameworks!
-    pod 'SwiftGRPC'
+    pod 'SwiftGRPC', :modular_headers => true
+    pod 'gRPC-Core', :modular_headers => true
+    pod 'BoringSSL', :modular_headers => true
 end
