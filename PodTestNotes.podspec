@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PodTestNotes"
-  s.version      = "0.0.1"
+  s.version      = "0.0.4"
   s.summary      = "Testing Notes GRPC"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "PodTestNotes", "PodTestNotes/**/*.{swift}"
+  s.source_files  = "PodTestNotes/**/*.{swift}"
 
   # s.public_header_files = "Classes/**/*.h"
 
