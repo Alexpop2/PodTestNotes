@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PodTestNotes"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "Testing Notes GRPC"
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Alexpop2/PodTestNotes.git", :tag => "#{s.version}" }
 
   s.framework = "Foundation"
-  s.dependency 'SwiftGRPC'
+  #s.dependency 'SwiftGRPC'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
