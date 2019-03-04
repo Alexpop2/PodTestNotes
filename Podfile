@@ -2,6 +2,6 @@
 # platform :ios, '9.0'
 
 target 'PodTestNotes' do
-	use_modular_headers!
-    pod 'SwiftGRPC', :modular_headers => true
+	use_frameworks!
+    pod 'SwiftGRPC'
 end
